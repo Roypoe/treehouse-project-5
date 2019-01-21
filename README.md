@@ -14,9 +14,9 @@ Using the Random User Generator API we'll build a employee directory that shows 
 - font: body: font-family: 'Dosis', sans-serif;
 - background-color: body: #007B76;
 - box-shadows: .card:
-    -webkit-box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
-    -moz-box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
-    box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
+  -moz-box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
+  box-shadow: 2px 11px 25px -7px rgba(0,0,0,0.6);
 - font: .modal : Capitalize text
 - border: changes and additions marked in css
 - background: changes and additions marked in css
@@ -25,3 +25,4 @@ Using the Random User Generator API we'll build a employee directory that shows 
 ## Other changes
 
 - Removed next/prev button if number of results = 1
+- Only toggle through visible employee cards (search results)
