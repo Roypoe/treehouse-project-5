@@ -40,10 +40,10 @@ $.ajax({
     "https://randomuser.me/api/?results=12&nat=gb&inc=name,location,email,dob,cell,picture&noinfo",
   dataType: "json",
   success: function(data) {
-    createList(data.results); // Create list if employee cards
+    createList(data.results); // Create list of employee cards
     setModalData(users)
       .insertAfter("#gallery")
-      .hide(); //hide modal initially
+      .hide(); // hide modal initially
     modalButton(); // Add close modal button
     toggle(); // Add toggle button
     saveUserArray(data.results); // Save array to variable
